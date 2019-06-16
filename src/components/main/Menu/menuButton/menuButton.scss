@@ -1,0 +1,19 @@
+.button-wrapper {
+  background: white;
+  opacity: 0.95;
+
+  .menu-button {
+    height: 60px;
+    width: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px;
+    margin: 0 auto;
+    transform: scale(1.15);
+    z-index: 99999;
+  }
+}
+

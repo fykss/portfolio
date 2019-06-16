@@ -1,0 +1,193 @@
+@mixin line($top) {
+  content: "";
+  display: inline;
+  position: absolute;
+  top: $top;
+  width: 10px;
+  height: 100vh;
+}
+
+@mixin anim-props($name) {
+  background-color: black;
+  animation: $name 1.5s ease;
+  animation-fill-mode: forwards;
+}
+
+.top-left {
+  @include line(0);
+  left: 49%;
+}
+
+.top-right {
+  @include line(0);
+  right: 49%;
+}
+
+.bottom-left {
+  @include line(50%);
+  left: 49%;
+}
+
+.bottom-right {
+  @include line(50%);
+  right: 49%;
+}
+
+/*---------top-left---------*/
+
+.top-left {
+  @include anim-props(loading-top-left);
+}
+
+@keyframes loading-top-left {
+  0% {
+    top: 50%;
+    left: 49%;
+    height: 0;
+    z-index: 100;
+  }
+  50% {
+    top: 0;
+    left: 49%;
+    height: 50vh;
+  }
+  100% {
+    left: -10%;
+    height: 50vh;
+  }
+}
+
+@-webkit-keyframes loading-top-left {
+  0% {
+    top: 50%;
+    left: 49%;
+    height: 0;
+    z-index: 100;
+  }
+  50% {
+    top: 0;
+    left: 49%;
+    height: 50vh;
+  }
+  100% {
+    left: -10%;
+    height: 50vh;
+  }
+}
+
+
+/*---------top-right---------*/
+
+.top-right {
+  @include anim-props(loading-top-right);
+}
+
+@keyframes loading-top-right {
+  0% {
+    top: 50%;
+    right: 49%;
+    height: 0;
+    z-index: 100;
+  }
+  50% {
+    top: 0;
+    right: 49%;
+    height: 50vh;
+  }
+  100% {
+    right: -10%;
+    height: 50vh;
+  }
+}
+
+@-webkit-keyframes loading-top-right {
+  0% {
+    top: 50%;
+    right: 49%;
+    height: 0;
+    z-index: 100;
+  }
+  50% {
+    top: 0;
+    right: 49%;
+    height: 50vh;
+  }
+  100% {
+    right: -10%;
+    height: 50vh;
+  }
+}
+
+
+/*---------bottom-left---------*/
+
+.bottom-left {
+  @include anim-props(loading-bottom-left);
+}
+
+@-webkit-keyframes loading-bottom-left {
+  0% {
+    left: 49%;
+    height: 0;
+  }
+  50% {
+    left: 49%;
+    height: 50vh;
+  }
+  100% {
+    left: -10%;
+    height: 50vh;
+  }
+}
+
+@keyframes loading-bottom-left {
+  0% {
+    left: 49%;
+    height: 0;
+  }
+  50% {
+    left: 49%;
+    height: 50vh;
+  }
+  100% {
+    left: -10%;
+    height: 50vh;
+  }
+}
+
+
+/*---------bottom-right---------*/
+
+.bottom-right {
+  @include anim-props(loading-bottom-right);
+}
+
+@-webkit-keyframes loading-bottom-right {
+  0% {
+    right: 49%;
+    height: 0;
+  }
+  50% {
+    right: 49%;
+    height: 50vh;
+  }
+  100% {
+    right: -10%;
+    height: 50vh;
+  }
+}
+
+@keyframes loading-bottom-right {
+  0% {
+    right: 49%;
+    height: 0;
+  }
+  50% {
+    right: 49%;
+    height: 50vh;
+  }
+  100% {
+    right: -10%;
+    height: 50vh;
+  }
+}

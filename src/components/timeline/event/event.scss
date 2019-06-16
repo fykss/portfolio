@@ -1,0 +1,71 @@
+.event-wrapper {
+
+  .event-year {
+    padding-right: 40px;
+    padding-top: 42px;
+
+    .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 0;
+    }
+  }
+
+  .event-line {
+    content: '';
+    width: 1px;
+    height: 33px;
+    display: inline-block;
+    background-color: black;
+  }
+
+  .event-content {
+    border-left: 1px Solid #ccc;
+
+    .dot {
+      content: "";
+      width: 13px;
+      height: 13px;
+      border-radius: 100%;
+      display: inline-block;
+      border: 1px solid #ccc;
+      background-color: white;
+      position: relative;
+      right: 22px;
+      top: 1px;
+    }
+
+    .event {
+      margin: 35px auto;
+
+      .event-month {
+        font-family: 'Clarkson', Helvetica, sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        font-weight: 700;
+      }
+
+      .event-title {
+        color: #333333;
+        margin-left: 25px;
+        font-size: 1.1rem;
+        font-weight: 300;
+        cursor: pointer;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #333333;
+        line-height: 48px;
+      }
+    }
+
+    .event:hover .dot {
+      background-color: #333333;
+      border-color: #333333;
+    }
+
+    .event:hover .event-title {
+      padding-bottom: 2px;
+      text-decoration: none;
+    }
+  }
+}
