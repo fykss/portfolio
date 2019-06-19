@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fykss/portfolio/static/css/main.16a131b5.chunk.css",
+    "main.js": "/fykss/portfolio/static/js/main.429af66f.chunk.js",
+    "main.js.map": "/fykss/portfolio/static/js/main.429af66f.chunk.js.map",
+    "runtime~main.js": "/fykss/portfolio/static/js/runtime~main.63d87a2f.js",
+    "runtime~main.js.map": "/fykss/portfolio/static/js/runtime~main.63d87a2f.js.map",
+    "static/js/2.db5a47f6.chunk.js": "/fykss/portfolio/static/js/2.db5a47f6.chunk.js",
+    "static/js/2.db5a47f6.chunk.js.map": "/fykss/portfolio/static/js/2.db5a47f6.chunk.js.map",
+    "index.html": "/fykss/portfolio/index.html",
+    "precache-manifest.f563007d577c914b8c3e9b1813be6e11.js": "/fykss/portfolio/precache-manifest.f563007d577c914b8c3e9b1813be6e11.js",
+    "service-worker.js": "/fykss/portfolio/service-worker.js",
+    "static/css/main.16a131b5.chunk.css.map": "/fykss/portfolio/static/css/main.16a131b5.chunk.css.map",
+    "static/media/photo.png": "/fykss/portfolio/static/media/photo.afa32bb7.png"
+  }
+}
