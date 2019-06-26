@@ -1,0 +1,66 @@
+@mixin circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 80px;
+
+  &__wrapper {
+    @include circle;
+    position: relative;
+    margin: 0 auto 60px auto;
+
+    &__img {
+      @include circle;
+      opacity: 1;
+      transition: .5s ease;
+    }
+
+    &__link {
+      @include circle;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: .5s ease;
+
+      &:hover {
+        color: #ffffff;
+        text-decoration: none;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.28);
+      }
+    }
+  }
+
+  &__description {
+
+    p {
+      font-weight: 300;
+      margin: 0 auto;
+      max-width: 300px;
+    }
+
+    h3 {
+      font-weight: 300;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    h3:after {
+      content: '';
+      width: 60px;
+      height: 1px;
+      background-color: #333333;
+      display: block;
+      margin: 20px auto 0 auto;
+    }
+  }
+}
+

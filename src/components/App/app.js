@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './app.scss'
 
-import Loader from '../loader'
-import Main from '../main'
-import About from "../about";
-import Timeline from "../timeline";
+import Loader from '../Loader'
+import Main from '../Main'
+import About from '../About';
+import Timeline from '../Timeline';
+import Skills from '../SkillBar';
 
 export default class app extends Component {
     state = {
@@ -22,14 +23,6 @@ export default class app extends Component {
 
     render() {
         const {loading} = this.state;
-
-        const content =
-            <React.Fragment>
-                <Main/>
-                <About/>
-                <Timeline/>
-            </React.Fragment>;
-
         const loadPage = loading ? <Loader onLoaded={this.onLoaded()}/> : null;
         const contentLoad = !loading ? content : null;
 
@@ -51,5 +44,13 @@ export default class app extends Component {
         );
     }
 }
+
+const content =
+    <React.Fragment>
+        <Main/>
+        <About/>
+        <Timeline/>
+        <Skills/>
+    </React.Fragment>;
 
 

@@ -4,16 +4,16 @@ import './event.scss'
 export default class Event extends Component {
 
     render() {
-
         const style = {
             dot: {
-                backgroundColor: '#ccc'
+                backgroundColor: '#ccc',
+                border: '1px solid #ccc'
             }
         };
 
         const item = this.props.content.map((item, index) => {
             return (
-                <article className='event' key={index} >
+                <article className='event' key={index}>
                     <span className='dot' style={item.month ? null : style.dot}/>
                     <span className='event-month'>{item.month}</span>
                     <a href={item.url} className='event-title'>{item.title}</a>

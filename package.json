@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "rc-texty": "^0.2.0",
     "react": "^16.8.6",
@@ -14,11 +15,14 @@
     "react-scroll": "^1.7.12",
     "react-transition-group": "latest"
   },
+  "homepage": "https://fykss.github.io/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
