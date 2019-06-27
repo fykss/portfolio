@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2fd3c76b.chunk.css",
-    "main.js": "/portfolio/static/js/main.08c535b4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.08c535b4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.78b56811.chunk.css",
+    "main.js": "/portfolio/static/js/main.b2c7dd28.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b2c7dd28.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.db5a47f6.chunk.js": "/portfolio/static/js/2.db5a47f6.chunk.js",
-    "static/js/2.db5a47f6.chunk.js.map": "/portfolio/static/js/2.db5a47f6.chunk.js.map",
+    "static/js/2.7e2090a2.chunk.js": "/portfolio/static/js/2.7e2090a2.chunk.js",
+    "static/js/2.7e2090a2.chunk.js.map": "/portfolio/static/js/2.7e2090a2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1b497102c8ec1fc3d4e78986db6024e7.js": "/portfolio/precache-manifest.1b497102c8ec1fc3d4e78986db6024e7.js",
+    "precache-manifest.b6df9802d5b89a9d831124d25c634d60.js": "/portfolio/precache-manifest.b6df9802d5b89a9d831124d25c634d60.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.2fd3c76b.chunk.css.map": "/portfolio/static/css/main.2fd3c76b.chunk.css.map",
-    "static/media/photo.png": "/portfolio/static/media/photo.afa32bb7.png"
+    "static/css/main.78b56811.chunk.css.map": "/portfolio/static/css/main.78b56811.chunk.css.map",
+    "static/media/air-ticket-booking.jpg": "/portfolio/static/media/air-ticket-booking.80f6fc96.jpg",
+    "static/media/forkio.jpg": "/portfolio/static/media/forkio.e37e8a35.jpg",
+    "static/media/ndb.jpg": "/portfolio/static/media/ndb.0007b23e.jpg",
+    "static/media/photo.png": "/portfolio/static/media/photo.afa32bb7.png",
+    "static/media/pizza.jpg": "/portfolio/static/media/pizza.aa3a12e6.jpg",
+    "static/media/replica-google-keep.jpg": "/portfolio/static/media/replica-google-keep.c9afc4cf.jpg",
+    "static/media/the-ham.jpg": "/portfolio/static/media/the-ham.20bac072.jpg",
+    "static/media/tinder.jpg": "/portfolio/static/media/tinder.108d04d6.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.dc9b2907.jpg"
   }
 }
