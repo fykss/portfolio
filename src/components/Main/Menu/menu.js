@@ -23,7 +23,7 @@ export default class Menu extends Component {
     }
 
     render() {
-        const menu = ['About', 'Timeline', 'Skills', 'Work', 'Contact Me'];
+        const menu = ['About', 'Timeline', 'Skills', 'Works', 'Contact'];
         const menuItems = menu.map((val, index) => {
             return (
                 <MenuItem
@@ -31,7 +31,10 @@ export default class Menu extends Component {
                     delay={`${index * 0.1}s`}
                     onClick={() => {
                         this.handleLinkClick();
-                    }}>{val}</MenuItem>)
+                    }}>
+                    {val}
+                </MenuItem>
+            )
         });
 
         return (

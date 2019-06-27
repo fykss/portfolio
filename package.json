@@ -10,6 +10,7 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.6",
     "react-loading-screen": "0.0.17",
+    "react-photo-gallery": "^7.0.2",
     "react-preloaders": "^2.1.4",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.12",

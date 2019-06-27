@@ -7,6 +7,8 @@ import Main from '../Main'
 import About from '../About';
 import Timeline from '../Timeline';
 import Skills from '../SkillBar';
+import Work from "../Works";
+import Contact from "../Contact";
 
 export default class app extends Component {
     state = {
@@ -51,6 +53,8 @@ const content =
         <About/>
         <Timeline/>
         <Skills/>
+        <Work/>
+        <Contact/>
     </React.Fragment>;
 
 
