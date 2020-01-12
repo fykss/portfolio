@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8561a3dc50521e4e9c26799df13baa7a",
+    "revision": "86f247ec188ad3ca6f9d90254e289054",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0cb0c161319fed5b3251",
-    "url": "/portfolio/static/css/main.78b56811.chunk.css"
+    "revision": "a74ed55889958c96e349",
+    "url": "/portfolio/static/css/main.77e7df0d.chunk.css"
   },
   {
-    "revision": "86086870a2f75bc780f0",
-    "url": "/portfolio/static/js/2.7e2090a2.chunk.js"
+    "revision": "c42745d4a948a3bc9ab9",
+    "url": "/portfolio/static/js/2.16a21065.chunk.js"
   },
   {
-    "revision": "0cb0c161319fed5b3251",
-    "url": "/portfolio/static/js/main.b2c7dd28.chunk.js"
+    "revision": "a74ed55889958c96e349",
+    "url": "/portfolio/static/js/main.52b791da.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80f6fc9684440cac062bf8192750231b",
     "url": "/portfolio/static/media/air-ticket-booking.80f6fc96.jpg"
+  },
+  {
+    "revision": "abe94de3c51e910c4ed0a1a16a346019",
+    "url": "/portfolio/static/media/btre.abe94de3.jpg"
   },
   {
     "revision": "e37e8a3538e941d530ec59ce988d2947",
