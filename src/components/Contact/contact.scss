@@ -19,7 +19,7 @@
 
   &-mail {
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 
     .mail-circle {
       width: 100px;
@@ -42,6 +42,7 @@
     .contact-mail-link {
       font-size: 20px;
       font-weight: 300;
+      margin-bottom: 10px;
 
       &:hover {
         color: #333333;
@@ -57,7 +58,7 @@
       color: #333333;
 
       &:hover {
-        color: #007bff;;
+        color: #007bff;
       }
     }
   }
@@ -72,4 +73,3 @@
     margin: 0 20px;
   }
 }
-

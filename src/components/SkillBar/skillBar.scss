@@ -1,0 +1,27 @@
+.skill-bar {
+  margin-bottom: 100px;
+
+  &-data {
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  &-data h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 40px;
+  }
+
+  &-data h2:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #333333;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
+
+
+
